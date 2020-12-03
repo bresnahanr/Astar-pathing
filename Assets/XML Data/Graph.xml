@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<Graph>
+	<Node Name="A" X="0.8" Y="10.6" Z="0.0" />
+	<Node Name="B" X="2.7" Y="10.6" Z="0.0" />
+	<Node Name="C" X="3.0" Y="12.4" Z="0.0" />
+	<Node Name="D" X="4.8" Y="9.6" Z="0.0" />
+	<Node Name="E" X="5.5" Y="7.0" Z="0.0" />
+	<Node Name="F" X="9.8" Y="6.3" Z="0.0" />
+	<Node Name="G" X="14.4" Y="9.6" Z="0.0" />
+	<Node Name="H" X="14.0" Y="2.8" Z="0.0" />
+	<Node Name="I" X="13.8" Y="0.6" Z="0.0" />
+	<Node Name="J" X="4.8" Y="11.7" Z="0.0" />
+	<Node Name="K" X="6.8" Y="11.7" Z="0.0" />
+	<Node Name="L" X="5.0" Y="16.5" Z="0.0" />
+	<Node Name="M" X="7.5" Y="14.4" Z="0.0" />
+	<Node Name="N" X="8.0" Y="16.0" Z="0.0" />
+	<Node Name="O" X="8.0" Y="18.6" Z="0.0" />
+	<Edge Start="A" End="B" Cost="1" />
+	<Edge Start="B" End="C" Cost="1" />
+	<Edge Start="B" End="D" Cost="2" />
+	<Edge Start="B" End="J" Cost="2" />
+	<Edge Start="D" End="E" Cost="3" />
+	<Edge Start="E" End="F" Cost="6" />
+	<Edge Start="F" End="G" Cost="6" />
+	<Edge Start="F" End="H" Cost="6" />
+	<Edge Start="G" End="H" Cost="6" />
+	<Edge Start="G" End="N" Cost="8" />
+	<Edge Start="H" End="I" Cost="3" />
+	<Edge Start="J" End="K" Cost="1" />
+	<Edge Start="J" End="L" Cost="5" />
+	<Edge Start="L" End="M" Cost="4" />
+	<Edge Start="L" End="N" Cost="4" />
+	<Edge Start="L" End="O" Cost="2" />
+	<Edge Start="M" End="N" Cost="2" />
+	<Path Start="K" End="I" />
+</Graph>
